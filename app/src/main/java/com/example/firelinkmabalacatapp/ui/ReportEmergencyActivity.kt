@@ -21,7 +21,7 @@ class ReportEmergencyActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_report_emergency)
 
-        val map = findViewById<MapView>(R.id.map)
+        val map = findViewById<MapView>(R.id.mapView)
         map.setMultiTouchControls(true)
         map.controller.setZoom(18.0)
 
