@@ -24,4 +24,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "FireLink Mabalacat App"
 include(":app")
- 
