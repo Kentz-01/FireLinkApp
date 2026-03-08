@@ -70,7 +70,8 @@
             <com.google.android.gms.maps.MapView
                 android:id="@+id/mapView"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:contentDescription="Emergency Location Map" />
 
             <!-- Transparent view on top to help with ScrollView interception if necessary,
                  but for simple usage we'll handle it in code -->
