@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <!-- Logo -->
+        <ImageView
+            android:id="@+id/imgLogo"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/bfp_logo"
+            android:contentDescription="App Logo"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"/>
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FireLink Mabalacat"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:layout_marginBottom="4dp"/>
+
+        <!-- Subtitle -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emergency Reporting System"
+            android:textSize="14sp"
+            android:textColor="#757575"
+            android:layout_marginBottom="40dp"/>
+
+        <!-- BIG RED EMERGENCY BUTTON -->
+        <Button
+            android:id="@+id/btnReport"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginBottom="30dp"
+            android:backgroundTint="#D32F2F"
+            android:text="🚨 REPORT EMERGENCY"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Safety Tips -->
+        <Button
+            android:id="@+id/btnSafety"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="🟡 View Safety Tips"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#F57C00"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- Hotlines -->
+        <Button
+            android:id="@+id/btnHotline"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="🔵 Emergency Hotlines"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#1976D2"
+            android:layout_marginBottom="15dp"/>
+
+        <!-- Announcements -->
+        <Button
+            android:id="@+id/btnAnnouncements"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="🟢 Disaster Announcements"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#388E3C"/>
+
+    </LinearLayout>
+
+</ScrollView>
